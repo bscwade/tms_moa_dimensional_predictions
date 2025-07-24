@@ -6,9 +6,7 @@ import os
 from glob import glob
 import seaborn as sns
 import pickle
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
-from sklearn.linear_model import ElasticNet, Ridge
-from sklearn.svm import SVR
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split, KFold, cross_val_score, GridSearchCV, cross_val_predict
 from sklearn.preprocessing import label_binarize, StandardScaler
 from sklearn.pipeline import make_pipeline, Pipeline
